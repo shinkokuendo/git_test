@@ -1,0 +1,23 @@
+.flex-container{
+   display: flex;
+}
+
+.flex-container div{
+   background: peachpuff;
+   border: 4px solid brown;
+   height: 100px;
+   width: 250px;
+   flex: 1 1 auto;
+}
+
+.flex-container .two{
+   flex-shrink: 0;
+}
+nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+li{
+   background: antiquewhite;
+   border: 4px solid violet;
+}
